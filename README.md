@@ -51,56 +51,22 @@ Run: npm run deploy
 Deploy result
 
    Deploying 'RealEstateERC721Token'
-   > Deploying 'RealEstateERC721Token'
    ---------------------------------
-   > block number:        4641125
-   > block timestamp:     1561746652
-   > account:             0x51c31EFf1759634431f634C0fB61d0BF7f51144B
-   > balance:             13.62723141
-   > gas used:            3315733
-   > gas price:           20 gwei
-   > value sent:          0 ETH
-   > total cost:          0.06631466 ETH
+   > contract address:    0x1a6D7e089b17fBE7D8e6E08a36A4231DeE5F769d
 
    Deploying 'SquareVerifier'
    ---------------------------------
-   > block number:        4641126
-   > block timestamp:     1561746743
-   > account:             0x51c31EFf1759634431f634C0fB61d0BF7f51144B
-   > balance:             13.59173657
-   > gas used:            1774742
-   > gas price:           20 gwei
-   > value sent:          0 ETH
-   > total cost:          0.03549484 ETH
+
+   > contract address:    0x4E0FFBe6F26A30D187dC35F72382d65f12C05210
 
    Deploying 'SolnSquareVerifier'
    ---------------------------------
-   > block number:        4641127
-   > block timestamp:     1561746758
-   > account:             0x51c31EFf1759634431f634C0fB61d0BF7f51144B
-   > balance:             13.49740951
-   > gas used:            4716353
-   > gas price:           20 gwei
-   > value sent:          0 ETH
-   > total cost:          0.09432706 ETH
-
-Contract ABI (xxxxx.json) located in build/contracts
-
-# Mint token
-
-Go to Remix - Solidity IDE
-
-Choose injected web3 and copy contract address to "At address"
-
-Mint 10 token according to proof.json and tokenid is from 1 to 10
-
-Result: Total Supply: 10 RE XXXXh
+   > contract address:    0xa989462334c95F9fA4E253a1b031833fF2423367
+   
 
 # Opensea storefront
 
- My storefront is on XXXXX
- 
- tokenid from 1001 to 1005 is brought by XXXXXX htXXXXX
+ My storefront is on https://rinkeby.opensea.io/assets/real-estate-v62
 
 
 # Project Resources
