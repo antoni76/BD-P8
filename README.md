@@ -8,21 +8,9 @@ npm install -g ganache-cli
 
 npm install 
 
-# Testing
-
-ganache-cli -m "muffin fix icon pelican finish alcohol puzzle farm scheme topple wish jewel"
-
-npm run compile
-
-npm run test-erc721
-
-npm run test-square-verifier
-
-npm run test-soln-square-verifier
-
 # ZoKrates
 
-docker run -v $PWD/zokrates/code:/home/zokrates/code -ti zokrates/zokrates /bin
+docker run -v $PWD/zokrates/code:/home/zokrates/code -ti zokrates/zokrates /bin/bash
 
 cd code/square
 
@@ -36,6 +24,19 @@ cd code/square
 
 ~/zokrates export-verifier
 
+# Testing
+
+ganache-cli -m "muffin fix icon pelican finish alcohol puzzle farm scheme topple wish jewel"
+
+npm run compile
+
+npm run test-erc721
+
+npm run test-square-verifier
+
+npm run test-soln-square-verifier
+
+
 # Deployment
 
 Go to Infura to create an account for creating a project.
@@ -48,29 +49,20 @@ Config truffle-config.js with Infura ENDPOINT
 
 Run: npm run deploy
 
-Deploy result
-
-   Deploying 'RealEstateERC721Token'
-   ---------------------------------
-   > contract address:    0x1a6D7e089b17fBE7D8e6E08a36A4231DeE5F769d
-
-   Deploying 'SquareVerifier'
-   ---------------------------------
-
-   > contract address:    0x4E0FFBe6F26A30D187dC35F72382d65f12C05210
+## Deploy result
 
    Deploying 'SolnSquareVerifier'
    ---------------------------------
-   > contract address:    0xa989462334c95F9fA4E253a1b031833fF2423367
+   > contract address:    0x0790f76a1A4a679D3A1884f4537A327C4a853815
    
 ## Mint token
 Go to Myetherwallet
-Go to Menu- Interact with contract and add contract address and ABI
-Mint 10 token https://rinkeby.etherscan.io/tx/0x5a3018f49dca19cea132b0bfa607f7ebd3b97bf106f3bce08c7c07a3cbb6d7dd
+Go to Menu- Interact with contract adding contract address and ABI from build/contracts/SolnSquareVerifier.json (lines 3 to 705)
+Mint 10 token https://rinkeby.etherscan.io/tx/0xed645c38e050ada4d9c7adf44af293e7ee36d4075285ff6d926580f04fe27d3c
 
 ## Opensea storefront
-My storefront is on https://rinkeby.opensea.io/assets/realestatev62
-Tokens have been sold https://rinkeby.etherscan.io/tx/0xca4d02f8ba720de5773bfa408377d3d101f193c95f0af203e62d7a492a4057c2
+My storefront is on https://rinkeby.opensea.io/assets/realestatev69
+Tokens have been sold https://rinkeby.etherscan.io/tx/0x8b28da02e96046bf5064da69ad4f54fb22d83aecad6447fa3af041fb34c7f6b4
 
 
 # Project Resources

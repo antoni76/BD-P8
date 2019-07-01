@@ -4,8 +4,8 @@ import 'openzeppelin-solidity/contracts/utils/Address.sol';
 import 'openzeppelin-solidity/contracts/drafts/Counters.sol';
 import 'openzeppelin-solidity/contracts/math/SafeMath.sol';
 import 'openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol';
-import "./Oraclize.sol"olidity/contracts/token/ERC721/IERC721Receiver.sol";
- 
+import './Oraclize.sol';
+
 contract Ownable {
     //  TODO's
     //  1) create a private '_owner' variable of type address with a public getter function

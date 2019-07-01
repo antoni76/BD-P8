@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "truffle compile",
+    "compile": "truffle compile --all",
     "test-erc721": "truffle test ./test/TestERC721Mintable.js",
     "test-square-verifier": "truffle test ./test/TestSquareVerifier.js",
     "test-soln-square-verifier": "truffle test ./test/TestSolnSquareVerifier.js",
