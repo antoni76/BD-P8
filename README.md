@@ -22,7 +22,7 @@ npm run test-soln-square-verifier
 
 # ZoKrates
 
-docker run -v ~/github/Blockchain-Capstone/zokrates/code:/home/zokrates/code -ti zokrates/zokrates /bin/bash
+docker run -v $PWD/zokrates/code:/home/zokrates/code -ti zokrates/zokrates /bin
 
 cd code/square
 
@@ -63,10 +63,14 @@ Deploy result
    ---------------------------------
    > contract address:    0xa989462334c95F9fA4E253a1b031833fF2423367
    
+## Mint token
+Go to Myetherwallet
+Go to Menu- Interact with contract and add contract address and ABI
+Mint 10 token https://rinkeby.etherscan.io/tx/0x5a3018f49dca19cea132b0bfa607f7ebd3b97bf106f3bce08c7c07a3cbb6d7dd
 
-# Opensea storefront
-
- My storefront is on https://rinkeby.opensea.io/assets/real-estate-v62
+## Opensea storefront
+My storefront is on https://rinkeby.opensea.io/assets/realestatev62
+Tokens have been sold https://rinkeby.etherscan.io/tx/0xca4d02f8ba720de5773bfa408377d3d101f193c95f0af203e62d7a492a4057c2
 
 
 # Project Resources

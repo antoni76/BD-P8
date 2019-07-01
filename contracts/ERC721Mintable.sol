@@ -1,11 +1,10 @@
 pragma solidity ^0.5.0;
 
-import 'openzeppelin-solidity/contracts/utils/Address.sol';
-import 'openzeppelin-solidity/contracts/drafts/Counters.sol';
-import 'openzeppelin-solidity/contracts/math/SafeMath.sol';
-import 'openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol';
-import "./Oraclize.sol";
-
+import "github.com/OpenZeppelin/zeppelin-solidity/contracts/utils/Address.sol";
+import "github.com/OpenZeppelin/zeppelin-solidity/contracts/drafts/Counters.sol";
+import "github.com/OpenZeppelin/zeppelin-solidity/contracts/math/SafeMath.sol";
+import "github.com/OpenZeppelin/zeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol";
+ 
 contract Ownable {
     //  TODO's
     //  1) create a private '_owner' variable of type address with a public getter function
